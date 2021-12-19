@@ -1,38 +1,14 @@
-﻿target_sources (JillOfTheJungle PRIVATE "Object.cpp"
-                                     "DynamicObject.cpp"
-	                                 "Board.cpp"
-									 "Controller.cpp"
-									 "Menu.cpp"
-									 "Knife.cpp"
-									 "Singleton.cpp"
-									 "main.cpp"	
-								     "Player.cpp"
-									 "Monster.cpp"
-									 "Snake.cpp"
-									 "Bird.cpp"
-									 "Alligator.cpp"
-									 "Bee.cpp"
-									 "Ant.cpp"
-									 "Frog.cpp"
-									 "Weapon.cpp"
-									 "NinjaStar.cpp"
-									 "Apple.cpp"
-									 "Diamond.cpp"
-									 "Gate.cpp"
-									 "GemGate.cpp"
-									 "Item.cpp"
-									 "Key.cpp"
-									 "KeyGate.cpp"
-									 "Spikes.cpp"
-									 "Vine.cpp"
-									 "Wall.cpp"
-									 "StaticObject.cpp"
-									 "StatusBar.cpp"
-									 "Floor.cpp"
-									 "Collision.cpp"
-									 "SpecialWall.cpp"
-									 "Present.cpp"
-									 "PresentLife.cpp"
-									 "PresentScore.cpp"
-									 "PresentTime.cpp"
-									 "PresentShield.cpp")
+configure_file ("MenuMusic.ogg" ${CMAKE_BINARY_DIR} COPYONLY)
+configure_file ("KunaiThrow.ogg" ${CMAKE_BINARY_DIR} COPYONLY)
+configure_file ("eat.ogg" ${CMAKE_BINARY_DIR} COPYONLY)
+configure_file ("FlappingWings.ogg" ${CMAKE_BINARY_DIR} COPYONLY)
+configure_file ("Shuriken.ogg" ${CMAKE_BINARY_DIR} COPYONLY)
+configure_file ("hit.ogg" ${CMAKE_BINARY_DIR} COPYONLY)
+configure_file ("gift.ogg" ${CMAKE_BINARY_DIR} COPYONLY)
+configure_file ("key.wav" ${CMAKE_BINARY_DIR} COPYONLY)
+configure_file ("diamond.ogg" ${CMAKE_BINARY_DIR} COPYONLY)
+configure_file ("gameBack.ogg" ${CMAKE_BINARY_DIR} COPYONLY)
+configure_file ("jump.ogg" ${CMAKE_BINARY_DIR} COPYONLY)
+configure_file ("level_end.ogg" ${CMAKE_BINARY_DIR} COPYONLY)
+configure_file ("lost.ogg" ${CMAKE_BINARY_DIR} COPYONLY)
+configure_file ("win.ogg" ${CMAKE_BINARY_DIR} COPYONLY)
